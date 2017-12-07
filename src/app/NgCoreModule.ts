@@ -7,7 +7,7 @@ import {WindowEvents} from "./Service/WindowEvents";
         WindowEvents
     ]
 })
-export class CoreModule {
+export class NgCoreModule {
 
     constructor(events: WindowEvents) {
         events.listen(window);

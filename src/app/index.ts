@@ -1,4 +1,4 @@
-export * from "./CoreModule";
+export * from "./NgCoreModule";
 export * from "./Decorator/OnChange";
 export * from "./Service/Async";
 export * from "./Service/ObjectCombiner";
