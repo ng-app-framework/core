@@ -1,6 +1,6 @@
 {
   "name": "@ng-app-framework/core",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "license": "MIT",
   "keywords": [
     "ng-app",
@@ -14,9 +14,9 @@
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "package": "ng-packagr",
-    "patch": "npm version patch && ng-packagr && npm publish dist",
-    "minor": "npm version minor && ng-packagr && npm publish dist",
-    "major": "npm version major && ng-packagr && npm publish dist"
+    "patch": "npm version patch --force && ng-packagr && npm publish dist",
+    "minor": "npm version minor --force && ng-packagr && npm publish dist",
+    "major": "npm version major --force && ng-packagr && npm publish dist"
   },
   "private": false,
   "dependencies": {
