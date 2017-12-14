@@ -1,7 +1,7 @@
 import {Component, NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
-import {NgCoreModule} from "./NgCoreModule";
+import {NgCoreModule} from "../lib/NgCoreModule";
 
 @Component({
     selector: 'app',

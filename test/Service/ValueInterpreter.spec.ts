@@ -1,4 +1,4 @@
-import {ValueInterpreter} from "../../src/app/Service/ValueInterpreter";
+import {ValueInterpreter} from "../../src/lib/Service/ValueInterpreter";
 
 describe('Class: ValueInterpreter', () => {
 

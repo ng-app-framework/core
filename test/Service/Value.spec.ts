@@ -1,4 +1,4 @@
-import {Value} from "../../src/app/Service/Value";
+import {Value} from "../../src/lib/Service/Value";
 
 describe('Class: Value', () => {
     describe('Method: Coalesce', () => {

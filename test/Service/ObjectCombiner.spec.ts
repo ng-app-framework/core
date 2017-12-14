@@ -1,4 +1,4 @@
-import {ObjectCombiner} from "../../src/app/Service/ObjectCombiner";
+import {ObjectCombiner} from "../../src/lib/Service/ObjectCombiner";
 
 class DummyClass {
 

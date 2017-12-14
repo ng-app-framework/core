@@ -1,4 +1,4 @@
-import {ValueMapper} from "../../src/app/Service/ValueMapper";
+import {ValueMapper} from "../../src/lib/Service/ValueMapper";
 
 describe('Class: ValueMapper', () => {
 

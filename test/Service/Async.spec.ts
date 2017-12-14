@@ -1,4 +1,4 @@
-import {Async} from "../../src/app/Service/Async";
+import {Async} from "../../src/lib/Service/Async";
 import {Observable} from "rxjs/Rx";
 
 describe('Class: Async', () => {

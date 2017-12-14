@@ -1,4 +1,4 @@
-import {WindowEvents} from "../../src/app/Service/WindowEvents";
+import {WindowEvents} from "../../src/lib/Service/WindowEvents";
 
 describe('Class: WindowEvents', () => {
 

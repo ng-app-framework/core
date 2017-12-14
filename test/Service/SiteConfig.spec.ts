@@ -1,4 +1,4 @@
-import {SiteConfig} from "../../src/app/Service/SiteConfig";
+import {SiteConfig} from "../../src/lib/Service/SiteConfig";
 
 describe('Class: SiteConfig', () => {
 

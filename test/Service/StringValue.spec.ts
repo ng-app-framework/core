@@ -1,4 +1,4 @@
-import {StringValue} from "../../src/app/Service/StringValue";
+import {StringValue} from "../../src/lib/Service/StringValue";
 
 describe('Class: StringValue', () => {
 
