@@ -1,4 +1,4 @@
-///<reference path="../../lib/typings.d.ts"/>
+///<reference path="lib/typings.d.ts"/>
 import './lib/polyfills';
 
 import 'zone.js/dist/long-stack-trace-zone';
