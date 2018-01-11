@@ -1,7 +1,8 @@
-import {Component, NgModule} from "@angular/core";
-import {BrowserModule} from "@angular/platform-browser";
-import {CommonModule} from "@angular/common";
-import {NgCoreModule} from "../lib/NgCoreModule";
+import {Component, EventEmitter, NgModule} from "@angular/core";
+import {BrowserModule}                     from "@angular/platform-browser";
+import {CommonModule}                      from "@angular/common";
+import {NgCoreModule}                      from "../lib/NgCoreModule";
+import {OnChange}                          from "../lib/Decorator/OnChange";
 
 @Component({
     selector: 'app',
@@ -10,6 +11,9 @@ import {NgCoreModule} from "../lib/NgCoreModule";
     `
 })
 export class AppComponent {
+
+    @OnChange value: string = '';
+              valueChange   = new EventEmitter<string>();
 
     constructor() {
 
